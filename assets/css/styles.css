@@ -35,7 +35,6 @@
     padding: auto;
     margin:0%;
     font-size: 36px;
-    text-align:left;
     text-decoration-style: solid;
   }
 
@@ -46,7 +45,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     list-style: none;
   }
   
@@ -54,12 +53,13 @@
     color: black;
     padding: 10px 15px;
     font-weight: lighter;
+    align-content: right;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
-  img.resize{
-    height: 30px;
-    width: 200px;
+  .about-image{
+    height: 200px;
+    width: auto;
   }
   .flex-row {
     display:flex
