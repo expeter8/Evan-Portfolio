@@ -61,6 +61,10 @@
     height: 200px;
     width: auto;
   }
+  .projects-image{
+    height: 200px;
+    width: auto;
+  }
   .flex-row {
     display:flex
   }
